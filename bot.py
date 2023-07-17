@@ -5,7 +5,7 @@ import logging, os
 PORT = int(os.environ.get('PORT', '8443'))
 
 with open('token.txt', 'r') as f:
-    TOKEN = str(f.read())
+    TOKEN = '6197392459:AAEP_KMZNzDgV8FsDJoMQ1y2XPYKsvdP-s0'
 
 session = {}
 
@@ -36,12 +36,12 @@ def error(update, context):
 
 def about(update, context):
     update.message.reply_text("""
-            TriganBot is not just a chatbot. It's so much more than that. It's an AI-enabled customer service solution that answers your questions, responds to your tweets, and helps you find the products you're looking for. TriganBot has the power to save you time, increase your sales, and make your customer service operation more efficient.
+           𝙇𝙚𝙤𝙣𝙚 𝘿𝙞𝙙𝙞 { 🇮🇳 } is not just a chatbot. It's so much more than that. It's an AI-enabled customer service solution that answers your questions, responds to your tweets, and helps you find the products you're looking for. TriganBot has the power to save you time, increase your sales, and make your customer service operation more efficient.
         """)
 
 
 def contact(update, context):
-    update.message.reply_text("Developer: Sushanth Kurdekar \n email: sushanth@logicalbee.in\n")
+    update.message.reply_text("Developer: 𝙁 𝙎𝙤𝙘𝙞𝙚𝙩𝙮 \n Telegram : https://t.me/devil_active\n")
 
 
 def handle_message(update, context):
